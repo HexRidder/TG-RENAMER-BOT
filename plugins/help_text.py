@@ -63,7 +63,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('⭕️ Nexon Projects ⭕', url=Https://t.me/NexonHex)
+          InlineKeyboardButton('Nexon Projects', url='http://t.me/NexonHex')
           ]
         ]
        )
