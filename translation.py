@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """ Hello <i><b>{}</b></i>,
+    START_TEXT = """<b>Hello <b>{}</b>,
     
 I'm A Simple File Renamer Bot With Permanent Thumbnail support!💯
 
@@ -9,7 +9,7 @@ Send me any Telegram file and select rename option.
 
 Click /help for more details....
 
-You must subscribe our channel in order to use me😇"""
+You must subscribe our channel in order to use me😇<b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
@@ -39,7 +39,7 @@ Follow These steps..
 
 ⚡ Select rename option and enter your new name ( extension is not required )
 
-NOTE : You must join our channel in order to USE ME<b>"""
+NOTE : You must join our channel in order to use me<b>"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
