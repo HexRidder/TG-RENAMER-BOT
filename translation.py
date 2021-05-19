@@ -57,4 +57,12 @@ The given file name has {num} characters.
 ©️ <code>Nexon Project's</code>
 Please short your file name and try again!"""
 
-    About = """Hi __{}__,
+    About = """⭕️My Name : Nexon Project's Renamer
+
+⭕️Creater : @NexonHeX
+
+⭕️Language : <code>Python3<code>
+
+⭕️Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 0.16.1</a>
+
+⭕️Source Code : <a href='http://t.me/nokkiirunnoippokittum'>👉 Click Here</a>
