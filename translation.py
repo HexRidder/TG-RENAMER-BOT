@@ -1,15 +1,15 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """Hello {},
+    START_TEXT = """<b>Hello {},
     
-I'm A Simple File Renamer Bot With Permanent Thumbnail support!** 💯
+I'm A Simple File Renamer Bot With Permanent Thumbnail support! 💯
 
 Send me any Telegram file and select rename option.
 
 Click /help for more details....
 
-You must subscribe our channel in order to use me 😇"""
+You must subscribe our channel in order to use me<b> 😇"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
@@ -29,7 +29,7 @@ You must subscribe our channel in order to use me 😇"""
     CUSTOM_CAPTION_UL_FILE = "© @NexonHeX"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """Hey.. It's not that complicated 😅
+    HELP_USER = """<b>Hey.. It's not that complicated 😅
 
 Follow These steps..
     
@@ -43,7 +43,7 @@ Follow These steps..
 💥 Reply to that message with /rename_video new name.extension. with custom thumbnail support.
 (uploading as Video)
 
-Note : You must join our channel in order to use me 😇"""
+Note : You must join our channel in order to use me<b>😇"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
