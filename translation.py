@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """<b>Hello **{}**,
+    START_TEXT = """<b>Hello <b>{}<b>,
     
 I'm A Simple File Renamer Bot With Permanent Thumbnail support! 💯
 
