@@ -7,9 +7,9 @@ I'm A Simple File Renamer Bot With Permanent Thumbnail support! 💯
 
 Send me any Telegram file and select rename option.
 
-Click /help for more details....
+Click<b> /help for more details....
 
-You must subscribe our channel in order to use me<b> 😇"""
+You must subscribe our channel in order to use me 😇"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
