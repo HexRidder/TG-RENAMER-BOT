@@ -61,7 +61,7 @@ Please short your file name and try again!"""
 
 ⭕️Creater : @NexonHeX
 
-⭕️Language : <code>Python3<code>
+⭕️Language : Python3
 
 ⭕️Library : Pyrogram asyncio 0.16.1
 
