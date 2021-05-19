@@ -44,6 +44,7 @@ async def help_user(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.HELP_USER.format(update.from_user.first_name, Config.USER_NAME[1:]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Nexon Project's", url="https://t.me/NexonHex")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -60,14 +61,10 @@ async def start(bot, update):
         text=Translation.START_TEXT.format(update.from_user.first_name, Config.USER_NAME), 
         parse_mode="html",
         #reply_to_message_id=update.message_id
-        reply_markup=InlineKeyboardMarkup(
-        [
-          [
-          InlineKeyboardButton('⭕ Nexon Projects ⭕', url='http://t.me/NexonHex')
-          ]
-        ]
-       )
-     )
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕ Nexon Project's ⭕", url="https://t.me/NexonHex")], [InlineKeyboardButton(text="⭕ SUPPORT ⭕", url="https://t.me/NexonSupport"),
+                     InlineKeyboardButton(text="♐️ SHARE ♐️", url="tg://msg?text=%2A%2AHai%20%E2%9D%A4%EF%B8%8F%2C%2A%2A%20%0A__Today%20i%20just%20found%20out%20an%20intresting%20and%20Powerful__%20%2A%2AZee5%20Downloader%20Bot%2A%2A%20__for%20Free%F0%9F%A5%B0.__%20%20%0A%2A%2ABot%20Link%20%3A%20%40RenameProNxbot%2A%2A%20%F0%9F%94%A5")]]),
+    ) 
+
 @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
 async def upgrade(bot, update):
     # logger.info(update)
