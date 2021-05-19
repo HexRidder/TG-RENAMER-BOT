@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """<b>Hello {},
+    START_TEXT = """**Hello {},
     
 I'm A Simple File Renamer Bot With Permanent Thumbnail support!💯
 
@@ -9,7 +9,7 @@ Send me any Telegram file and select rename option.
 
 Click /help for more details....
 
-You must subscribe our channel in order to use me😇<b>"""
+You must subscribe our channel in order to use me😇**"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
@@ -29,7 +29,7 @@ You must subscribe our channel in order to use me😇<b>"""
     CUSTOM_CAPTION_UL_FILE = "© @NexonHeX"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """<b>Hey.. It's not that complicated 😅
+    HELP_USER = """**Hey.. It's not that complicated 😅
 
 Follow These steps..
     
@@ -43,7 +43,7 @@ Follow These steps..
 💥 Reply to that message with /rename_vidoe new name.extension. with custom thumbnail support.
 (uploading as Video)
 
-Note : You must join our channel in order to use me 😇<b>"""
+Note : You must join our channel in order to use me 😇**"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
@@ -57,12 +57,12 @@ The given file name has {num} characters.
 ©️ <code>Nexon Project's</code>
 Please short your file name and try again!"""
 
-    About = """⭕️My Name : Nexon Project's Renamer
+    About = """**⭕️My Name : Nexon Project's Renamer
 
 ⭕️Creater : @NexonHeX
 
 ⭕️Language : <code>Python3<code>
 
-⭕️Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 0.16.1</a>
+⭕️Library : <a href='https://docs.pyrogram.org/'> Pyrogram asyncio 0.16.1</a>
 
-⭕️Source Code : <a href='http://t.me/nokkiirunnoippokittum'>👉 Click Here</a>"""
+⭕️Source Code : <a href='http://t.me/nokkiirunnoippokittum'> 👉 Click Here</a>**"""
